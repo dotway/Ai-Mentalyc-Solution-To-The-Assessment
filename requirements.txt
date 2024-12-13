@@ -1,0 +1,15 @@
+streamlit 
+langchain
+PyPDF2
+langchain_community
+langchain_core
+python-dotenv
+langchain-huggingface
+langchain-qdrant
+langchain-ollama
+unstructured[pdf]
+onnx==1.16.1
+qdrant_client
+
+#docker run -p 6333:6333 -v .:/qdrant/storage qdrant/qdrant
+# ollama run llama3.2:3b
