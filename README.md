@@ -1,8 +1,8 @@
-# 📄 Document Buddy App
+# 📄 Mentalyc Medical Chatbot AI App
 
-![Document Buddy App](sct.png)
+![Mentalyc Medical Chatbot AI App](sct.png)
 
-**Document Buddy App** is a powerful Streamlit-based application designed to simplify document management. Upload your PDF documents, create embeddings for efficient retrieval, and interact with your documents through an intelligent chatbot interface. 🚀
+**DMentalyc Medical Chatbot AI App** is a powerful Streamlit-based application designed to simplify document management. Upload your PDF documents, create embeddings for efficient retrieval, and interact with your documents through an intelligent chatbot interface. 🚀
 
 ## 🛠️ Features
 
@@ -14,13 +14,13 @@
 
 ## 🖥️ Tech Stack
 
-The Document Buddy App leverages a combination of cutting-edge technologies to deliver a seamless and efficient user experience. Here's a breakdown of the technologies and tools used:
+The Mentalyc Medical Chatbot AI App leverages a combination of cutting-edge technologies to deliver a seamless and efficient user experience. Here's a breakdown of the technologies and tools used:
 
-- **[LangChain](https://langchain.readthedocs.io/)**: Utilized as the orchestration framework to manage the flow between different components, including embeddings creation, vector storage, and chatbot interactions.
+- **[LangChain](https://langchain.readthedocs.io/)**: Utilized as the orchestration framework to manage the flow between different components, including embedding creation, vector storage, and chatbot interactions.
   
 - **[Unstructured](https://github.com/Unstructured-IO/unstructured)**: Employed for robust PDF processing, enabling the extraction and preprocessing of text from uploaded PDF documents.
   
-- **[BGE Embeddings from HuggingFace](https://huggingface.co/BAAI/bge-small-en)**: Used to generate high-quality embeddings for the processed documents, facilitating effective semantic search and retrieval.
+- **[sentence-transformers/all-mpnet-base-v2](https://huggingface.co/BAAI/bge-small-en)**: Used to generate high-quality embeddings for the processed documents, facilitating effective semantic search and retrieval.
   
 - **[Qdrant](https://qdrant.tech/)**: A vector database running locally via Docker, responsible for storing and managing the generated embeddings for fast and scalable retrieval.
   
@@ -30,9 +30,9 @@ The Document Buddy App leverages a combination of cutting-edge technologies to d
 
 ## 📁 Directory Structure
 
-document_buddy_app/
+Ai-Mentalyc-Solution-To-The-Assessment/
 ```
-│── logo.png
+│── mentalyc_logo.png
 ├── new.py
 ├── vectors.py
 ├── chatbot.py
@@ -41,12 +41,13 @@ document_buddy_app/
 
 ## 🚀 Getting Started
 
-Follow these instructions to set up and run the Document Buddy App on your local machine.
+Follow these instructions to set up and run the Mentalyc Medical Chatbot AI App on your local machine.
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/AIAnytime/Document-Buddy-App.git
+git clone https://github.com/dotway/Ai-Mentalyc-Solution-To-The-Assessment.git
+
 cd Document-Buddy-App
 
 2. Create a Virtual Environment
@@ -72,9 +73,9 @@ Follow these steps to create a virtual environment using Anaconda:
 	1.	Open the Anaconda Prompt.
 	2.	Create a new environment:
 
-conda create --name document_buddy python=3.9
+conda create --name Ai-Mentalyc-Solution-To-The-Assessment Python 3.11.4 
 
-(Replace document_buddy with your preferred environment name if desired).
+(Replace Ai-Mentalyc-Solution-To-The-Assessment with your preferred environment name if desired).
 
 	3.	Activate the newly created environment:
 
@@ -135,11 +136,11 @@ This project is licensed under the MIT License.
 
 ### 📫 Contact
 
-•	Email: aianytime07@gmail.com ✉️
+•	Email: pope.dotun@gmail.com ✉️
 
 Feel free to reach out for any queries, suggestions, or contributions. Your feedback is invaluable!
 
-© 2024 Document Buddy App by AI Anytime. All rights reserved. 🛡️
+© 2024 Mentalyc Medical Chatbot AI App by AI Mentalyc. All rights reserved. 🛡️
 
 ### 🔗 Useful Links
 
