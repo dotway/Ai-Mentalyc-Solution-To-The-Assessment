@@ -1,17 +1,19 @@
-# 📄 Home Page
-# 📄 Mentalyc Medical Chatbot AI App
+# 📄 Mentalyc Medical Chatbot AI App Has Three Interfaces. You can access them from the drop-down list in the side menu
+
+# 📄 📄 Home Page
 
 ![Mentalyc Medical Chatbot AI App](https://github.com/dotway/Ai-Mentalyc-Solution-To-The-Assessment/blob/c4de94fea267063985829414b6ad154e2a0b9eee/images/Home%20Page.png)
 
 # 📄 Chatbot Page
-# 📄 Mentalyc Medical Chatbot AI App
+# 📄 This is where you will upload files, click on the embedding button to perform an inference, and start chatting with the model 
+# 📄 Note: For now you can only upload PDF files
 
 ![Mentalyc Medical Chatbot AI App](https://github.com/dotway/Ai-Mentalyc-Solution-To-The-Assessment/blob/f7737d3954b5fcb51ef6a375d2780fd0ef1e6c5c/chatBot%20Ass.png)
 
 # 📄 Contact Page
 # 📄 Mentalyc Medical Chatbot AI App
 
-![Mentalyc Medical Chatbot AI App]()
+![Mentalyc Medical Chatbot AI App](https://github.com/dotway/Ai-Mentalyc-Solution-To-The-Assessment/blob/89c382ff3c5f2d7b3977fa2ebbc21dd1d533b940/images/Contact%20page.png)
 
 **DMentalyc Medical Chatbot AI App** is a powerful Streamlit-based application designed to simplify document management. Upload your PDF documents, create embeddings for efficient retrieval, and interact with your documents through an intelligent chatbot interface. 🚀
 
