@@ -1,12 +1,16 @@
 # 📄 Mentalyc Medical Chatbot AI App 
-    The Mentalyc Medical It Has Three Interfaces. **You can access them from the drop-down list in the side menu**
+    - The Mentalyc Medical App Has Three Interfaces. 
+    -You can access them from the drop-down list in the side menu
     
 # 📄 Home Page
 
 ![Mentalyc Medical Chatbot AI App](https://github.com/dotway/Ai-Mentalyc-Solution-To-The-Assessment/blob/c4de94fea267063985829414b6ad154e2a0b9eee/images/Home%20Page.png)
 
 # 📄 Chatbot Page
-    This is where you will upload files, click on the embedding button to perform inference, and start chatting with the model 
+    -This is where you will upload files, 
+    -click on the embedding button to perform inference, 
+    -and start chatting with the model 
+    
 -**Note**: For now you can only upload PDF files
 
 ![Mentalyc Medical Chatbot AI App](https://github.com/dotway/Ai-Mentalyc-Solution-To-The-Assessment/blob/f7737d3954b5fcb51ef6a375d2780fd0ef1e6c5c/chatBot%20Ass.png)
