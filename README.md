@@ -1,7 +1,7 @@
 # 📄 Mentalyc Medical Chatbot AI App 
-    The Mentalyc Medical It Has Three Interfaces. -**You can access them from the drop-down list in the side menu**
+    The Mentalyc Medical It Has Three Interfaces. **You can access them from the drop-down list in the side menu**
     
-# 📄 📄 Home Page
+# 📄 Home Page
 
 ![Mentalyc Medical Chatbot AI App](https://github.com/dotway/Ai-Mentalyc-Solution-To-The-Assessment/blob/c4de94fea267063985829414b6ad154e2a0b9eee/images/Home%20Page.png)
 
@@ -12,11 +12,10 @@
 ![Mentalyc Medical Chatbot AI App](https://github.com/dotway/Ai-Mentalyc-Solution-To-The-Assessment/blob/f7737d3954b5fcb51ef6a375d2780fd0ef1e6c5c/chatBot%20Ass.png)
 
 # 📄 Contact Page
-# 📄 Mentalyc Medical Chatbot AI App
 
 ![Mentalyc Medical Chatbot AI App](https://github.com/dotway/Ai-Mentalyc-Solution-To-The-Assessment/blob/89c382ff3c5f2d7b3977fa2ebbc21dd1d533b940/images/Contact%20page.png)
 
-**DMentalyc Medical Chatbot AI App** is a powerful Streamlit-based application designed to simplify document management. Upload your PDF documents, create embeddings for efficient retrieval, and interact with your documents through an intelligent chatbot interface. 🚀
+**DMentalyc Medical Chatbot AI App** is a powerful Streamlit-based application that simplifies document management. Upload your PDF documents, create embeddings for efficient retrieval, and interact with your documents through an intelligent chatbot interface. 🚀
 
 ## 🛠️ Features
 
@@ -37,6 +36,7 @@ The Mentalyc Medical Chatbot AI App leverages a combination of cutting-edge tech
 - **[sentence-transformers/all-mpnet-base-v2](https://huggingface.co/BAAI/bge-small-en)**: Used to generate high-quality embeddings for the processed documents, facilitating effective semantic search and retrieval.
   
 - **[Qdrant](https://qdrant.tech/)**: A vector database running locally via Docker, responsible for storing and managing the generated embeddings for fast and scalable retrieval.
+- **NOTE: Qdrant is used as a VectorDB for the privacy of the medical dataset**
   
 - **[LLaMA 3.2 via Ollama](https://ollama.com/)**: Integrated as the local language model to power the chatbot, providing intelligent and context-aware responses based on the document embeddings.
   
@@ -57,12 +57,20 @@ Ai-Mentalyc-Solution-To-The-Assessment/
 
 Follow these instructions to set up and run the Mentalyc Medical Chatbot AI App on your local machine.
 
-### 1. Clone the Repository
+### 1. Follow these step
+    - Download Docker Desktop from the Docker hub
+    - Install the Docker Desktop
+    -Run "docker run -p 6333:6333 -v .:/qdrant/storage qdrant/qdrant" command on your terminal to start your VectorDB
+    -Run "ollama run llama3.2:3b" command on your terminal to start your llama Model
+    
+    
+
+### 2. Clone the Repository
 
 ```bash
 git clone https://github.com/dotway/Ai-Mentalyc-Solution-To-The-Assessment.git
 
-cd Document-Buddy-App
+cd Ai-Mentalyc-Solution-To-The-Assessment
 
 2. Create a Virtual Environment
 
