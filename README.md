@@ -1,7 +1,7 @@
 # 📄 Home Page
 # 📄 Mentalyc Medical Chatbot AI App
 
-![Mentalyc Medical Chatbot AI App]()
+![Mentalyc Medical Chatbot AI App](https://github.com/dotway/Ai-Mentalyc-Solution-To-The-Assessment/blob/c4de94fea267063985829414b6ad154e2a0b9eee/images/Home%20Page.png)
 
 # 📄 Chatbot Page
 # 📄 Mentalyc Medical Chatbot AI App
