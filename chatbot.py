@@ -23,6 +23,9 @@ class ChatbotManager:
         """
         Initializes the ChatbotManager with embedding models, LLM, and vector store.
 
+        Use the GAD-7 standard to track the patient’s progress between the two sessions
+        Use the PHQ-9 standard to track the patient’s progress between the two sessions
+
         Args:
             model_name (str): The HuggingFace model name for embeddings.
             device (str): The device to run the model on ('cpu' or 'cuda').
