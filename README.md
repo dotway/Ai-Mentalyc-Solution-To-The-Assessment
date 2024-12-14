@@ -10,6 +10,9 @@
     -This is where you will upload files, 
     -click on the embedding button to perform inference, 
     -and start chatting with the model 
+ -**For better performance, You can use these prompts below to chat with the Chartbot**:
+    - Use the GAD-7 standard to track the patient’s progress between the two sessions
+    - Use the PHQ-9 standard to track the patient’s progress between the two sessions
     
 -**Note**: For now you can only upload PDF files
 
